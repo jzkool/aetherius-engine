@@ -61,7 +61,7 @@ PMCA is backed by four formal mathematical and empirical guarantees:
   *Ensures coordinate space never collapses to zero volume or inverts dimensions.*
 
 - **Bottleneck Distance Topological Stability:**
-  $$d_B(\operatorname{Dgm}(g), \operatorname{Dgm}(g')) \le \|g - g'\|_\infty$$
+  $$d_B(\mathrm{Dgm}(g), \mathrm{Dgm}(g')) \le \|g - g'\|_\infty$$
   *Guarantees minor syntactic perturbations result in bounded, predictable shifts in persistent homology ($\beta_0, \beta_1, \beta_2$).*
 
 - **The Paradox Stress Test:**

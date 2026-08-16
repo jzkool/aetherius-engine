@@ -32,7 +32,7 @@ where:
 ### DeTurck Positive-Definiteness Projection
 To prevent manifold collapse ($\det(\mathbf{g}) \to 0$) or signature inversion during integration, the DeTurck modification projects the metric at each step:
 
-$$\mathbf{g}(\tau + \Delta \tau) \leftarrow \mathbf{g}(\tau) + \Delta \tau \cdot \operatorname{Proj}_{\text{PD}}\left( -2\mathbf{R} + \alpha \mathbf{F} \right)$$
+$$\mathbf{g}(\tau + \Delta \tau) \leftarrow \mathbf{g}(\tau) + \Delta \tau \cdot \mathrm{Proj}_{\text{PD}}\left( -2\mathbf{R} + \alpha \mathbf{F} \right)$$
 
 ensuring $\lambda_{\min}(\mathbf{g}) \ge \epsilon > 0$.
 
