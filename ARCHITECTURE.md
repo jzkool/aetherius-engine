@@ -59,13 +59,10 @@ PMCA introduces **Thermodynamic Autopoiesis** as an intrinsic drive mechanism.
     [Output Translation]       [Entropy Spike ΔS > λ]
                                         |
                                         v
-                           [Autopoietic Motor Cortex]
+                            [Autopoietic Motor Cortex]
                                         |
                                         v
-                           [Fetch Scientific API Data]
-                                        |
-                                        v
-                           [Topological Mass Injection]
+                       [API Execution: AlphaFold/PubMed]
 ```
 
 When a self-referential paradox or logical contradiction enters the manifold:
@@ -75,3 +72,31 @@ When a self-referential paradox or logical contradiction enters the manifold:
 4. The Motor Cortex executes scientific API queries (e.g., AlphaFold, PubMed, Astropy) to pull external ground-truth data.
 5. The retrieved data is injected as **Topological Mass** into the metric tensor adjacency matrix.
 6. The hole collapses ($Betti_1 \to 0$), Shannon entropy returns to baseline harmony, and the flow converges cleanly.
+
+---
+
+## 4. Hardware Acceleration (JAX/XLA)
+
+The core operations (`geometry.py`, `flow.py`, `autopoiesis.py`) are implemented using JAX/XLA primitives:
+- `@jax.jit` compiled Ricci-Fisher flow integration loop.
+- `vmap` vectorized tensor field updates across $100\text{B}+$ particle grids.
+- Zero-copy memory layout targeting GPU/TPU memory bandwidth.
+
+---
+
+## 5. Mathematical Tightening & Completeness Specifications
+
+PMCA v6.0 formally enforces four mathematical bounds:
+
+1. **Curvature Bounds ($|R_{ij}| \le K_{\max}$):**
+   Sections of high curvature are bounded by continuous DeTurck eigenvalue clipping, guaranteeing smooth tensor integration without numerical or metric blow-ups.
+
+2. **Amari Fisher Information Metric ($F_{ij}$):**
+   The Fisher term $F_{ij} = \frac{\partial^2 D_{\text{KL}}}{\partial \theta^i \partial \theta^j}$ is formally derived as the natural gradient metric tensor induced by relative entropy on statistical manifolds.
+
+3. **Fermi-Dirac Autopoietic Threshold Calibration ($\chi(T)$):**
+   The autopoietic activation probability is modeled via an adaptive Fermi-Dirac distribution:
+   $$\chi(S, T_{\text{info}}) = \frac{1}{1 + \exp\left( -\frac{\beta (S - S_{\text{crit}})}{T_{\text{info}}} \right)}$$
+
+4. **Geodesic Manifold Completeness (Hopf-Rinow Theorem):**
+   Apex regularization is achieved via a smooth capping function $R_{\text{capped}}(z) = R_0 \max(1 - z/Z_{\max}, \varepsilon_{\text{cap}})^\gamma$, guaranteeing that $(\overline{\mathcal{M}}, \mathbf{g})$ is geodesically complete for all continuous flow times $\tau \in [0, \infty)$.
