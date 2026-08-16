@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "aetherius-engine"
 version = "6.0.0"
 authors = [
-  { name="Jonathan Wayne Fleuren", email="contact@aetherius.ai" },
+  { name="Jonathan Wayne Fleuren", email="j.fleuren@aetheriuscognitivesystems.com" },
 ]
 description = "Pure Mathematical Conal Architecture (PMCA v6.0): Continuous 3D non-Euclidean geometric substrate and Ricci-Fisher Flow engine."
 readme = "README.md"

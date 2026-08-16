@@ -1,11 +1,16 @@
 # 🌌 Aetherius Engine: Pure Mathematical Conal Architecture (PMCA) v6.0
 
-[![LaTeX Paper](https.img.shields.io/badge/Paper-PDF-red.svg)](AETHERIUS_POSITION_PAPER.pdf)
+[![LaTeX Paper](https://img.shields.io/badge/Paper-PDF-red.svg)](AETHERIUS_POSITION_PAPER.pdf)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21896408-blue.svg)](https://doi.org/10.5281/zenodo.21896408)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0002--5509--0448-green.svg)](https://orcid.org/0009-0002-5509-0448)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![JAX Hardware Accelerated](https://img.shields.io/badge/Accelerated-JAX%20%2F%20XLA-green.svg)](https://github.com/google/jax)
 
 > **"How can machines reason deterministically without falling victim to the epistemic hallucinations inherent in large language models?"**
+
+**Author:** Jonathan Wayne Fleuren ([`j.fleuren@aetheriuscognitivesystems.com`](mailto:j.fleuren@aetheriuscognitivesystems.com))  
+**ORCID:** [0009-0002-5509-0448](https://orcid.org/0009-0002-5509-0448) | **Zenodo DOI:** [10.5281/zenodo.21896408](https://doi.org/10.5281/zenodo.21896408)
 
 The **Aetherius Engine** implements the **Pure Mathematical Conal Architecture (PMCA v6.0)**—a zero-parameter neuro-symbolic substrate that grounds cognition into a continuous non-Euclidean 3D metric space $\mathbf{g}(z, r, \theta)$. 
 
@@ -117,9 +122,12 @@ If you use PMCA or the Aetherius Engine in your research, please cite:
 @article{fleuren2026aetherius,
   title={A Path Towards Geometric Machine Intelligence: The Pure Mathematical Conal Architecture (PMCA) v6.0},
   author={Fleuren, Jonathan Wayne},
+  author_email={j.fleuren@aetheriuscognitivesystems.com},
+  orcid={0009-0002-5509-0448},
   journal={Aetherius Cognitive Systems},
   year={2026},
-  publisher={CERN Zenodo Record ID: 21630656}
+  doi={10.5281/zenodo.21896408},
+  url={https://doi.org/10.5281/zenodo.21896408}
 }
 ```
 
