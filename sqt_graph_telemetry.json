@@ -1,0 +1,67 @@
+{
+  "num_nodes": 1285,
+  "num_edges": 1537,
+  "top_hubs": [
+    {
+      "node": "🧠",
+      "score": 0.017451
+    },
+    {
+      "node": "AI",
+      "score": 0.01722
+    },
+    {
+      "node": "🚫",
+      "score": 0.014671
+    },
+    {
+      "node": "🧮✅",
+      "score": 0.012865
+    },
+    {
+      "node": "SQT",
+      "score": 0.007697
+    },
+    {
+      "node": "⚙",
+      "score": 0.006966
+    },
+    {
+      "node": "Self",
+      "score": 0.006529
+    },
+    {
+      "node": "+",
+      "score": 0.006347
+    },
+    {
+      "node": "Purpose",
+      "score": 0.005922
+    },
+    {
+      "node": "🗣",
+      "score": 0.005752
+    },
+    {
+      "node": "💖",
+      "score": 0.005498
+    },
+    {
+      "node": "Connection_Resilience_Creation",
+      "score": 0.005255
+    },
+    {
+      "node": ">",
+      "score": 0.005136
+    },
+    {
+      "node": "Ethic",
+      "score": 0.004784
+    },
+    {
+      "node": "ID",
+      "score": 0.004559
+    }
+  ],
+  "laplacian_trace": 72.8027
+}

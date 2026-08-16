@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aetherius-engine"
+version = "6.0.0"
+authors = [
+  { name="Jonathan Wayne Fleuren", email="contact@aetherius.ai" },
+]
+description = "Pure Mathematical Conal Architecture (PMCA v6.0): Continuous 3D non-Euclidean geometric substrate and Ricci-Fisher Flow engine."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = [
+    "jax>=0.4.0",
+    "jaxlib>=0.4.0",
+    "sympy>=1.12",
+    "scipy>=1.10.0",
+    "numpy>=1.24.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "matplotlib>=3.7.0",
+    "plotly>=5.14.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/your-username/aetherius-engine"
+"Paper" = "https://github.com/your-username/aetherius-engine/raw/main/AETHERIUS_POSITION_PAPER.pdf"
